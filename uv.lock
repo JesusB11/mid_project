@@ -1565,6 +1565,20 @@ dependencies = [
     { name = "numpy" },
     { name = "pandas" },
     { name = "seaborn" },
+    { name = "unicodedata2" },
+    { name = "unidecode" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "ipykernel", specifier = ">=6.29.5" },
+    { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "matplotlib", specifier = ">=3.9.2" },
+    { name = "numpy", specifier = ">=2.0.2" },
+    { name = "pandas", specifier = ">=2.2.3" },
+    { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "unicodedata2", specifier = ">=16.0.0" },
+    { name = "unidecode", specifier = ">=1.4.0" },
 ]
 
 [package.metadata]

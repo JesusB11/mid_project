@@ -11,6 +11,8 @@ dependencies = [
     "seaborn>=0.13.2",
     "jupyter>=1.1.1",
     "ipykernel>=6.29.5",
+    "unidecode>=1.4.0",
+    "unicodedata2>=16.0.0",
 ]
 
 [build-system]
